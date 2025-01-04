@@ -1,39 +1,40 @@
 :root, [data-bs-theme=light] {
-  --bs-primary: #212529;
-  --bs-primary-rgb: 33,37,41;
-  --bs-primary-text-emphasis: #0D0F10;
-  --bs-primary-bg-subtle: #D3D3D4;
-  --bs-primary-border-subtle: #A6A8A9;
+  --bs-primary: #2c93ff;
+  --bs-primary-rgb: 44,147,255;
+  --bs-primary-text-emphasis: #123B66;
+  --bs-primary-bg-subtle: #D5E9FF;
+  --bs-primary-border-subtle: #ABD4FF;
+  --bs-body-font-family: Ubuntu, sans-serif;
 }
 
 .btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #212529;
-  --bs-btn-border-color: #212529;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #1C1F23;
-  --bs-btn-hover-border-color: #1A1E21;
-  --bs-btn-focus-shadow-rgb: 222,222,223;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #1A1E21;
-  --bs-btn-active-border-color: #191C1F;
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #212529;
-  --bs-btn-disabled-border-color: #212529;
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #2c93ff;
+  --bs-btn-border-color: #2c93ff;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #4CA3FF;
+  --bs-btn-hover-border-color: #419EFF;
+  --bs-btn-focus-shadow-rgb: 7,22,38;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #56A9FF;
+  --bs-btn-active-border-color: #419EFF;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #2c93ff;
+  --bs-btn-disabled-border-color: #2c93ff;
 }
 
 .btn-outline-primary {
-  --bs-btn-color: #212529;
-  --bs-btn-border-color: #212529;
-  --bs-btn-focus-shadow-rgb: 33,37,41;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #212529;
-  --bs-btn-hover-border-color: #212529;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #212529;
-  --bs-btn-active-border-color: #212529;
-  --bs-btn-disabled-color: #212529;
+  --bs-btn-color: #2c93ff;
+  --bs-btn-border-color: #2c93ff;
+  --bs-btn-focus-shadow-rgb: 44,147,255;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #2c93ff;
+  --bs-btn-hover-border-color: #2c93ff;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #2c93ff;
+  --bs-btn-active-border-color: #2c93ff;
+  --bs-btn-disabled-color: #2c93ff;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #212529;
+  --bs-btn-disabled-border-color: #2c93ff;
 }
 
